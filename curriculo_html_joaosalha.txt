@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Currículo - João Salha</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+      background-color: white;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .header {
+      text-align: center;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 15px;
+      margin-bottom: 20px;
+    }
+
+    .header h1 {
+      margin: 0;
+      color: #222;
+    }
+
+    .header p {
+      margin: 5px 0 0;
+      color: #555;
+    }
+
+    .section {
+      margin-bottom: 20px;
+    }
+
+    .section h2 {
+      font-size: 20px;
+      color: #333;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 5px;
+      margin-bottom: 10px;
+    }
+
+    .section p {
+      margin: 6px 0;
+      color: #444;
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 6px;
+      color: #444;
+    }
+
+    a {
+      color: #0077cc;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+
+    <div class="header">
+      <h1>João Salha</h1>
+      <p>Desenvolvedor de Sistemas | Estudante</p>
+    </div>
+
+    <div class="section">
+      <h2>Contato</h2>
+      <p><strong>Email:</strong> joaosalha2009@gmail.com</p>
+      <p><strong>Telefone:</strong> (11) 93450-0084</p>
+      <p><strong>Cidade:</strong> São Paulo</p>
+      <p><strong>GitHub:</strong> <a href="https://github.com/salha-joao/pwi.joao.salha2026.git" target="_blank">Acessar repositório</a></p>
+    </div>
+
+    <div class="section">
+      <h2>Objetivo</h2>
+      <p>
+        Busco uma oportunidade de estágio ou início de carreira na área de Tecnologia da Informação,
+        com foco em Desenvolvimento de Sistemas, visando aprender na prática, desenvolver minhas
+        habilidades e adquirir experiência profissional.
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>Formação Acadêmica</h2>
+      <p><strong>Curso:</strong> Desenvolvimento de Sistemas</p>
+      <p><strong>Instituições:</strong> Colégio Olivetano (manhã) | ETEC Camargo Aranha - Mooca (noite)</p>
+      <p><strong>Início:</strong> 2026</p>
+      <p><strong>Previsão de término:</strong> Meio de 2027</p>
+    </div>
+
+    <div class="section">
+      <h2>Habilidades</h2>
+      <ul>
+        <li>Conhecimentos básicos em programação</li>
+        <li>Portugol Studio</li>
+        <li>Tinkercad</li>
+        <li>Git e GitHub</li>
+        <li>Visual Studio Code</li>
+        <li>Lógica de programação</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Projetos</h2>
+      <p>Projeto acadêmico desenvolvido durante os estudos e disponível no GitHub:</p>
+      <p>
+        <a href="https://github.com/salha-joao/pwi.joao.salha2026.git" target="_blank">
+          Ver projeto
+        </a>
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>Experiência</h2>
+      <p>
+        Ainda não possuo experiência profissional formal, mas venho desenvolvendo conhecimentos
+        por meio de atividades escolares, exercícios práticos, uso de plataformas de programação
+        e elaboração de projetos acadêmicos.
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>Informações Adicionais</h2>
+      <ul>
+        <li>Disponibilidade para estágio</li>
+        <li>Facilidade para aprender novas ferramentas</li>
+        <li>Interesse em programação e tecnologia</li>
+        <li>Comprometimento com estudos e desenvolvimento profissional</li>
+      </ul>
+    </div>
+
+  </div>
+
+</body>
+</html>
