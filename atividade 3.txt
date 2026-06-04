@@ -1,0 +1,10 @@
+class Main {
+  public static void main(String[] args) {
+    String nome="Maria" ,bairro="Mooca";
+    int idade=19
+    if(idade >=18 && bairro == "Mooca") {
+        System.out.println("Contratado")
+    }
+  System.out.println("Fim de programa ...");
+  
+  Criterio : Maior de idade e morar na mooca

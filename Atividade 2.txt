@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner entrada = new Scanner(System.in);
+
+        for (int i = 1; i <= 5; i++) {
+            System.out.println("\nPessoa " + i);
+
+            System.out.print("Digite seu nome: ");
+            String nome = entrada.nextLine();
+
+            System.out.print("Digite sua idade: ");
+            int idade = entrada.nextInt();
+            entrada.nextLine();
+
+            System.out.print("Digite seu bairro: ");
+            String bairro = entrada.nextLine();
+
+            System.out.println("Nome: " + nome +
+                               ", bairro: " + bairro +
+                               ", sua idade é: " + idade + " anos");
+        }
+
+        entrada.close();
+    }
+}

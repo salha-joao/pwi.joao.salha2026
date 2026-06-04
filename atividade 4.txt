@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class RepetirNome {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+       
+        System.out.print("Digite um nome: ");
+        String nome = scanner.nextLine();
+        
+       
+        System.out.print("Digite a quantidade de vezes que deseja repetir: ");
+        int quantidade = scanner.nextInt();
+
+       
+        for (int i = 1; i <= quantidade; i++) {
+            System.out.println(i + ": " + nome); // Adicionei o 'i' para você ver a contagem
+        }
+
+        scanner.close();
+    }
+}
