@@ -1,8 +1,0 @@
-class Main {
-  public static void main(String[] args) {
-  String nome="Maria" ,bairro="mooca";
-  int idade=19;
-  if (idade >=16) {
-    System.out,println("Maior de idade no USA") ;
-  }
-  System.out.println("Fim de programa");
